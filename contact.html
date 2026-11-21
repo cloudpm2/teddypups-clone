@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Visit &amp; contact | TeddyPups U.A.E.</title>
+<meta name="description" content="Visit TeddyPups in Downtown Dubai or get in touch on WhatsApp, by phone or email.">
+<meta name="theme-color" content="#fffdf8">
+<link rel="icon" href="https://puppy.instabizweb.com/brand/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="contact">
+<a class="skip" href="#main">Skip to content</a>
+<div id="site-header"></div>
+<main id="main">
+<div class="container page-head"><h1>Get in touch with us</h1><p class="lead">Have questions about our puppies or adoption process? Fill out the form, and our team will get back to you promptly. Whether ready to adopt or just seeking info, we'd love to hear from you!</p></div>
+<section style="padding-top:20px"><div class="container contact-grid">
+  <div class="form-card">
+    <form id="contactForm" novalidate>
+      <div class="form-fields">
+        <p class="letter">Dear TeddyPups,</p>
+        <div class="row2">
+          <div class="field"><label for="cn">my name is</label><input id="cn" name="name" data-req autocomplete="name"><span class="err"></span></div>
+          <div class="field"><label for="cp">you can reach me on</label><input id="cp" name="phone" data-req data-phone placeholder="+971 50 123 4567" autocomplete="tel"><span class="err"></span></div>
+        </div>
+        <div class="row2">
+          <div class="field"><label for="ce">or by email at</label><input id="ce" type="email" name="email" autocomplete="email"><span class="err"></span></div>
+          <div class="field"><label for="ca">I live in</label><input id="ca" name="area" placeholder="e.g. Dubai Marina"><span class="err"></span></div>
+        </div>
+        <div class="field"><label for="puppySel">and I'm curious about (puppy you're interested in)</label><select id="puppySel" name="puppy"></select></div>
+        <div class="field"><label for="cm">Your message (optional)</label><textarea id="cm" name="message" rows="4"></textarea></div>
+        <input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <p class="hand" style="margin-bottom:12px">with love, a future puppy parent</p>
+        <button class="btn btn-primary" type="submit">Post my letter</button>
+      </div>
+      <div class="form-ok"><div class="big">💌</div><h3>Your letter is ready!</h3><p class="lead" style="margin:10px auto 20px">Tap below to send it to our team on WhatsApp for the quickest reply.</p><a class="btn btn-wa" target="_blank" rel="noopener" href="#">Continue on WhatsApp</a></div>
+    </form>
+  </div>
+  <div class="contact-list">
+    <a id="waLink" href="#" target="_blank" rel="noopener"><small>WhatsApp</small><b>+971 50 000 0000</b></a>
+    <a href="tel:+971500000000"><small>call us</small><b>+971 50 000 0000</b></a>
+    <a href="mailto:hello@teddypups.ae"><small>email</small><b>hello@teddypups.ae</b></a>
+  </div>
+</div></section>
+<section class="alt"><div class="container visit">
+  <div><h2>Visit us in Downtown Dubai</h2><p class="lead" style="margin-top:14px">Step into our Downtown Dubai showroom and experience the joy of choosing your puppy face-to-face.</p><p style="margin-top:14px"><b>Downtown Dubai, United Arab Emirates</b></p><div class="btn-row"><a class="btn btn-primary" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Downtown+Dubai">Open in Google Maps</a></div></div>
+  <img loading="lazy" src="https://puppy.instabizweb.com/media/skvodl2NZiKq/cefab5eee9/27b888_323008bb0f6a41d4bde2a0da7206cd98f003.jpg" alt="The apricot teddy bear puppy from our showroom, held up to say hello">
+</div></section>
+</main>
+<div id="site-footer"></div>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+<script>document.getElementById("waLink").href=wa();</script>
+</body>
+</html>
